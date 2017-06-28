@@ -28,18 +28,25 @@
   </build>
 
   <dependencies>
+    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>6.11</version>
       <scope>test</scope>
     </dependency>
-
+    <!--TODO remove dependencies if not used by the end-->
+    <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+    <!--<dependency>-->
+      <!--<groupId>com.google.guava</groupId>-->
+      <!--<artifactId>guava</artifactId>-->
+      <!--<version>19.0</version>-->
+    <!--</dependency>-->
     <!-- https://mvnrepository.com/artifact/com.ibm.icu/icu4j -->
-    <dependency>
-      <groupId>com.ibm.icu</groupId>
-      <artifactId>icu4j</artifactId>
-      <version>59.1</version>
-    </dependency>
+    <!--<dependency>-->
+      <!--<groupId>com.ibm.icu</groupId>-->
+      <!--<artifactId>icu4j</artifactId>-->
+      <!--<version>59.1</version>-->
+    <!--</dependency>-->
   </dependencies>
 </project>
