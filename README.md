@@ -1,6 +1,4 @@
-# pig-latin-translator
-Terribly overengineered translator into Pig Latin.
-
+# Pig Latin Translator
 Java code that translates a string (word, sentence, or paragraph) into “pig-latin” using the following rules.
 * Words that start with a consonant have their first letter moved to the end of the word and the letters “ay” added to the end.
   * Hello becomes Ellohay
